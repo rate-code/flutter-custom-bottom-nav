@@ -1,16 +1,96 @@
-# custom_bottom_nav
 
-A new Flutter project.
+# 📱 Flutter Custom Bottom Navigation Bar
 
-## Getting Started
+A clean and modern **Custom Bottom Navigation Bar** implementation in Flutter. This project demonstrates how to build a **responsive, stateful, icon-swapping bottom nav bar** with dynamic selection highlighting using **Responsive Sizer** for adaptive layouts.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🔥 **Custom Icon Swap on Selection**
+- 🎨 **Modern, Clean UI**
+- 📏 **Responsive Layout with `responsive_sizer`**
+- ⚙️ **Simple State Management**
+- 💾 **Expandable & Modular Code Structure**
+- 📱 Perfect for small apps, dashboards, or concept UIs
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📸 Preview
+
+![Bottom Nav Demo](assets/ss.png)
+
+---
+
+## 📦 Dependencies
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  responsive_sizer: ^3.2.0
+```
+
+---
+
+## 📂 Project Structure
+
+```
+lib/
+├── bottom_nav.dart        # Custom Bottom Navigation widget
+├── constants.dart         # Constants for icons and labels
+├── history_screen.dart    # Sample Page: History
+├── home_screen.dart       # Sample Page: Home
+├── main.dart              # App Entry Point
+├── main_screen.dart       # Scaffold managing page navigation and bottom nav
+├── profile_screen.dart    # Sample Page: Profile
+└── wishlist_screen.dart   # Sample Page: Wishlist
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repo
+
+```bash
+git clone https://github.com/rate-code/flutter-custom-bottom-nav.git
+cd flutter_custom_bottom_nav
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
+flutter pub get
+```
+
+### 3️⃣ Run the Project
+
+```bash
+flutter run
+```
+
+---
+
+## 🛠️ Customization
+
+- Add more icons and pages via `BottomMenuItem` list in `constants.dart`.
+- Update navigation icons by setting `icon` and `selectedIcon`.
+- Easily replace the page content by swapping widgets in the `pages` list inside `MainScreen`.
+
+---
+
+## 📚 Tutorials & Docs
+
+📺 [Watch the Full Video Here](https://youtu.be/aQGs2tAY9co)
+
+---
+
+## 💌 Contact & Credits
+
+👨‍💻 Created by **Rate Code**  
+📧 [rate.code.115@gmail.com](mailto:rate.code.115@gmail.com)
+
+---
+
+**⭐️ Don’t forget to star the repo if you found it helpful!**
