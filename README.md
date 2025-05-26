@@ -18,7 +18,7 @@ A clean and modern **Custom Bottom Navigation Bar** implementation in Flutter. T
 
 ## 📸 Preview
 
-![Bottom Nav Demo](ss.png)
+<img src="ss.png" alt="Water Meter UI Preview" width="300"/>
 
 ---
 
