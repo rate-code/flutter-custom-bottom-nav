@@ -18,7 +18,7 @@ A clean and modern **Custom Bottom Navigation Bar** implementation in Flutter. T
 
 ## 📸 Preview
 
-![Bottom Nav Demo](assets/ss.png)
+![Bottom Nav Demo](ss.png)
 
 ---
 
